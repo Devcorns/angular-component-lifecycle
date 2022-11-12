@@ -7,7 +7,7 @@ This tutorial to better understand the lifecycle hook of component
 - **it works when parent data changes and passes to child**
 - **it will not works when child data changes**
 - it will only **works** with **@Input()** decorator
-  - **@Input() Decorator** works when data comes from parent component
+  - **@Input() Decorator** works when data passes from parent component
 
 
 
