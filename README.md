@@ -10,7 +10,7 @@ This tutorial to better understand the lifecycle hook of component
   - **@Input() Decorator** works when data passes from parent component
 
 ```
-Parent controller like (parent.ts)
+Parent controller like (parent.component.ts)
 
 data = "this is parent data for child component";
 
@@ -33,4 +33,20 @@ Parent view like (parent.html)
 
 ```
 
+```
+child controller like (child.component.ts)
+
+@Input() parentData:string = "";
+  
+  ngOnInit() {
+    console.log(this.parentData)
+  }
+  ngOnChanges(changes: SimpleChanges) {
+    console.log("from ng on change hook, ",this.parentData);
+    console.log("changes parameters",changes['parentData'].currentValue)
+    if(changes['parentData'].currentValue == "") {
+      console.log("values empty")
+    }
+  }
+```
 
