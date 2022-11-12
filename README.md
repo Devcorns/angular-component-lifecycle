@@ -10,5 +10,9 @@ This tutorial to better understand the lifecycle hook of component
   - **@Input() Decorator** works when data passes from parent component
 
 
-
+```
+git status
+git add
+git commit
+```
 
