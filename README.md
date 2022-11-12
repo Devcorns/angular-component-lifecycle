@@ -1,7 +1,7 @@
 # angular-component-lifecycle
 This tutorial to better understand the lifecycle hook of component
 
-## ngOnChanges lifecycle hook
+## ngOnChanges lifecycle hook :ok_hand:	
 - ngOnChanges() **works first** in angular compomonent life cycle
 - it fires **before ngOnInit()** lifecycle hooks
 - **it works when parent data changes and passes to child**
