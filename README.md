@@ -26,6 +26,7 @@ updateData() {
 
 ```
 Parent view like (parent.html)
+
 <p>Parent html file passing data to child component</p>
 <button (click)="updateData()">Update parent data</button>
 <app-child-component [parentData]=data></app-child-component>
