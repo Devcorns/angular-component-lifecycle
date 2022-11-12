@@ -6,4 +6,4 @@ This tutorial to better understand the lifecycle hook of component
 #### - it fires **before ngOnInit()** lifecycle hooks
 #### - **Parent to Child communication**
 #### - **Not in Child to Parent communication**
-- ![#f03c15] hello `#f03c15`
+
