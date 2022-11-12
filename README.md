@@ -15,7 +15,7 @@ Parent controller like (parent.ts)
 data = "this is parent data for child component";
 
 updateData() {
-  if(this.data.lenght) {
+  if(this.data.length) {
     this.data = ""
   } else {
     this.data = "new data from parent";   
