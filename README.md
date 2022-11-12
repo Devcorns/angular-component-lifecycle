@@ -6,6 +6,7 @@ This tutorial to better understand the lifecycle hook of component
 - it fires **before ngOnInit()** lifecycle hooks
 - **it works when parent data changes and passes to child**
 - **it will not works when child data changes**
+- it will only **works** with **@Input()** decorator
 
 
 
