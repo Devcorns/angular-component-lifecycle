@@ -11,8 +11,10 @@ This tutorial to better understand the lifecycle hook of component
 
 
 ```
-git status
-git add
-git commit
+
+**`Parent component like (parent.html)`**
+<p>Parent html file passing data to child component</p>
+<app-child-component [parentData]=data></app-child-component>
+
 ```
 
