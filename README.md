@@ -9,12 +9,27 @@ This tutorial to better understand the lifecycle hook of component
 - it will only **works** with **@Input()** decorator
   - **@Input() Decorator** works when data passes from parent component
 
+```
+Parent controller like (parent.ts)
+
+data = "this is parent data for child component";
+
+updateData() {
+  if(this.data.lenght) {
+    this.data = ""
+  } else {
+    this.data = "new data from parent";   
+  }
+}
 
 ```
 
-**`Parent component like (parent.html)`**
+```
+Parent view like (parent.html)
 <p>Parent html file passing data to child component</p>
+<button (click)="updateData()">Update parent data</button>
 <app-child-component [parentData]=data></app-child-component>
 
 ```
+
 
